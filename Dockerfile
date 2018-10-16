@@ -1,11 +1,9 @@
-FROM ubuntu:14.04
+FROM node:8.12-alpine
 
 MAINTAINER Christoph Wiechert <wio@psitrax.de>
 MAINTAINER https://github.com/henszey
 
-RUN apt-get update
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get install -y nodejs
 
 RUN mkdir /app
 ADD . /app/
