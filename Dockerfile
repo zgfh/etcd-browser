@@ -1,4 +1,4 @@
-FROM node:8.12-alpine
+FROM node:alpine
 
 MAINTAINER Christoph Wiechert <wio@psitrax.de>
 MAINTAINER https://github.com/henszey
